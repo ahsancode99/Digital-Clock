@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.clock {
+    border: 1px solid black;
+    border-radius: 55px;
+    height: 500px;
+    width: 900px;
+    position: relative;
+    left: 200px;
+    background-image: url(./clock.png);
+    background-size: cover;
+}
+.digits {
+    position: absolute;
+    font-size: 65px;
+    font-weight: 700;
+    color: rgb(228, 89, 235);
+  }
+  .amPm{
+  position: absolute;
+  font-size: 27px;
+  font-weight: 700;
+  color: white;
+
+}
+
+#hour {
+    left: 190px;
+    top: 165px;
+}
+
+#min {
+    left: 400px;
+    top: 165px;
+}
+
+#sec {
+    left: 605px;
+    top: 165px;
+}
+
+#ampm {
+    left: 747px;
+    top: 185px;
+}
+.lower_digits {
+    position: absolute;
+    font-size: 38px;
+    color: white;
+    font-weight: 500;
+}
+
+#day {
+    left: 200px;
+    top: 314px;
+}
+
+#month {
+    left: 440px;
+    top: 314px;
+}
+
+#date {
+    left: 680px;
+    top: 314px;
+}
+
+@media screen and (max-width:1440px){
+.clock{
+  left:200px ;
+}
+}
+@media screen and (max-width:1024px){
+.clock{
+  left:70px ;
+}
+}
+@media screen and (max-width:768px){
+.clock{
+  left:0px ;
+}
+}
