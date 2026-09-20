@@ -25,6 +25,9 @@ function digitalClock (){
     date_span.innerText = date;
     month_span.innerText = months_arr[month];
     day_span.innerText = days_arr[day - 1]
+    if( day == 0){
+        day_span.innerText = days_arr[6]
+    }
 
 
     // seconds 0 fix         ////////////
